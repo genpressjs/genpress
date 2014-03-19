@@ -1,0 +1,17 @@
+{
+    "name": "general-express", "version": "0.0.1",
+    "description": "Express with ES6 Generators",
+
+    "scripts": {
+        "test": "node --harmony test.js"
+    },
+
+    "dependencies": {
+        "express": "latest"
+    },
+    "engines": {
+        "node" : ">=0.11.9"
+    },
+
+    "license": "MIT"
+}
