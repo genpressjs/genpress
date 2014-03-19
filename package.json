@@ -1,6 +1,10 @@
 {
-    "name": "general-express", "version": "0.0.1",
+    "name": "general-express", "version": "0.0.3",
     "description": "Express with ES6 Generators",
+
+    "repository": {
+        "type":"git", "url":"https://github.com/genpressjs/node-general-express.git"
+    },
 
     "scripts": {
         "test": "node --harmony test.js"
