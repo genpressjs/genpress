@@ -3,9 +3,15 @@
 * with ES6 Generators
 
  
+## Require
+```
+--harmony
+```
+
+ 
 ## Install
 ```
-npm install general-express
+npm install genpress
 ```
 
  

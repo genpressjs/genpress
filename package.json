@@ -1,17 +1,21 @@
 {
-    "name": "general-express", "version": "0.0.7",
+    "name": "genpress", "version": "0.1.0",
     "description": "Express with ES6 Generators",
 
     "repository": {
-        "type":"git", "url":"https://github.com/genpressjs/node-general-express.git"
+        "type":"git", "url":"https://github.com/genpressjs/genpress.git"
     },
 
     "scripts": {
-        "test": "node --harmony test.js"
+        "test": "node --harmony test.js",
+        "test-serve": "supervisor --harmony test.js"
     },
 
     "dependencies": {
         "express": "latest"
+    },
+    "devDependencies": {
+        "supervisor": ">=0.5.7"
     },
     "engines": {
         "node" : ">=0.11.9"
