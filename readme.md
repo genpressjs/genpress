@@ -1,6 +1,11 @@
 # [express*](https://github.com/genpressjs/node-general-express)
 
-* with ES6 Generators
+*with [ES6 Generators](http://wiki.ecmascript.org/doku.php?id=harmony:generators)
+
+— [Обзор ECMAScript 6, следующей версии JavaScript](http://habrahabr.ru/post/175371/)
+— [Отказываемся от коллбэков: Генераторы в ECMAScript 6](http://habrahabr.ru/post/210330/)
+
+Why not?
 
  
 ## Require
