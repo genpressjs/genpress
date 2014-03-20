@@ -1,8 +1,10 @@
-var general= require('./index')
+var App= require('./index')
 
 
 
-var app= general()
+var app= App()
+
+app.use(App.Express.logger('dev'))
 
 app.use(function (req, res, next) {
     console.log('ok :)')
