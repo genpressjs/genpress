@@ -1,5 +1,5 @@
 {
-    "name": "general-express", "version": "0.0.5",
+    "name": "general-express", "version": "0.0.7",
     "description": "Express with ES6 Generators",
 
     "repository": {
